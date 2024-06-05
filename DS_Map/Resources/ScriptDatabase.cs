@@ -2511,7 +2511,7 @@ namespace DSPRE.Resources {
             [0x017A] = new byte[] { 2, 2 },
             [0x017B] = new byte[] { 2 },
             [0x017C] = new byte[] { 2, 2 },
-            [0x017D] = new byte[] { 2 },
+            [0x017D] = new byte[] { 2, 2 },
             [0x017E] = new byte[] { 2, 2 },
             [0x017F] = new byte[] { 2, 2 },
             [0x0180] = new byte[] { 1 },
