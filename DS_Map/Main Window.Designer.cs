@@ -2485,7 +2485,7 @@
             this.setSpawnPointButton.Image = global::DSPRE.Properties.Resources.spawnCoordsMatrixeditorIcon;
             this.setSpawnPointButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.setSpawnPointButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.setSpawnPointButton.Location = new System.Drawing.Point(11, -674);
+            this.setSpawnPointButton.Location = new System.Drawing.Point(11, -1275);
             this.setSpawnPointButton.Name = "setSpawnPointButton";
             this.setSpawnPointButton.Size = new System.Drawing.Size(117, 43);
             this.setSpawnPointButton.TabIndex = 35;
@@ -2501,7 +2501,7 @@
             this.saveMatrixButton.Image = global::DSPRE.Properties.Resources.save_rom;
             this.saveMatrixButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.saveMatrixButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.saveMatrixButton.Location = new System.Drawing.Point(11, -613);
+            this.saveMatrixButton.Location = new System.Drawing.Point(11, -1214);
             this.saveMatrixButton.Name = "saveMatrixButton";
             this.saveMatrixButton.Size = new System.Drawing.Size(117, 43);
             this.saveMatrixButton.TabIndex = 34;
@@ -4201,7 +4201,7 @@
             this.radio3D.AutoSize = true;
             this.radio3D.Checked = true;
             this.radio3D.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.radio3D.Location = new System.Drawing.Point(-846, -1167);
+            this.radio3D.Location = new System.Drawing.Point(-1839, -1768);
             this.radio3D.Name = "radio3D";
             this.radio3D.Size = new System.Drawing.Size(31, 23);
             this.radio3D.TabIndex = 26;
@@ -4216,7 +4216,7 @@
             this.radio2D.Appearance = System.Windows.Forms.Appearance.Button;
             this.radio2D.AutoSize = true;
             this.radio2D.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.radio2D.Location = new System.Drawing.Point(-846, -1196);
+            this.radio2D.Location = new System.Drawing.Point(-1839, -1797);
             this.radio2D.Name = "radio2D";
             this.radio2D.Size = new System.Drawing.Size(31, 23);
             this.radio2D.TabIndex = 25;
@@ -4231,7 +4231,7 @@
             this.wireframeCheckBox.Appearance = System.Windows.Forms.Appearance.Button;
             this.wireframeCheckBox.AutoSize = true;
             this.wireframeCheckBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.wireframeCheckBox.Location = new System.Drawing.Point(1140, -1138);
+            this.wireframeCheckBox.Location = new System.Drawing.Point(1140, -1739);
             this.wireframeCheckBox.Name = "wireframeCheckBox";
             this.wireframeCheckBox.Size = new System.Drawing.Size(31, 23);
             this.wireframeCheckBox.TabIndex = 27;
@@ -10338,7 +10338,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "MainProgram";
-            this.Text = "DS Pokémon Rom Editor Reloaded 1.11.1 (Nømura, AdAstra/LD3005, Mixone)";
+            this.Text = "DS Pokémon Rom Editor Reloaded 1.11.1 (Nømura, AdAstra/LD3005, Mixone) - Re:Kanto" + " Version";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainProgram_FormClosing);
             this.mainTabControl.ResumeLayout(false);
             this.headerEditorTabPage.ResumeLayout(false);
