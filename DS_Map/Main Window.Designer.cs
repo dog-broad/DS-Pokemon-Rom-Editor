@@ -23,8 +23,8 @@
         #region Codice generato da Progettazione Windows Form
 
         /// <summary>
-        /// Metodo necessario per il supporto della finestra di proGettazione. Non modificare
-        /// il contenuto del metodo con l'editor di codice.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -817,6 +817,7 @@
             this.personalDataEditorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.overlayEditorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.spawnEditorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.moveDataEditorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.statusLabel = new System.Windows.Forms.ToolStripStatusLabel();
@@ -851,7 +852,6 @@
             this.separator_afterMiscButtons = new System.Windows.Forms.ToolStripSeparator();
             this.versionLabel = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.moveDataEditorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mainTabControl.SuspendLayout();
             this.headerEditorTabPage.SuspendLayout();
             this.worldmapCoordsGroupBox.SuspendLayout();
@@ -1225,11 +1225,7 @@
             // worldmapYCoordUpDown
             // 
             this.worldmapYCoordUpDown.Location = new System.Drawing.Point(25, 67);
-            this.worldmapYCoordUpDown.Maximum = new decimal(new int[] {
-            63,
-            0,
-            0,
-            0});
+            this.worldmapYCoordUpDown.Maximum = new decimal(new int[] { 63, 0, 0, 0 });
             this.worldmapYCoordUpDown.Name = "worldmapYCoordUpDown";
             this.worldmapYCoordUpDown.Size = new System.Drawing.Size(38, 20);
             this.worldmapYCoordUpDown.TabIndex = 26;
@@ -1247,11 +1243,7 @@
             // worldmapXCoordUpDown
             // 
             this.worldmapXCoordUpDown.Location = new System.Drawing.Point(25, 29);
-            this.worldmapXCoordUpDown.Maximum = new decimal(new int[] {
-            63,
-            0,
-            0,
-            0});
+            this.worldmapXCoordUpDown.Maximum = new decimal(new int[] { 63, 0, 0, 0 });
             this.worldmapXCoordUpDown.Name = "worldmapXCoordUpDown";
             this.worldmapXCoordUpDown.Size = new System.Drawing.Size(38, 20);
             this.worldmapXCoordUpDown.TabIndex = 24;
@@ -1294,11 +1286,7 @@
             // wildPokeUpDown
             // 
             this.wildPokeUpDown.Location = new System.Drawing.Point(11, 20);
-            this.wildPokeUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.wildPokeUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.wildPokeUpDown.Name = "wildPokeUpDown";
             this.wildPokeUpDown.Size = new System.Drawing.Size(72, 20);
             this.wildPokeUpDown.TabIndex = 24;
@@ -1421,11 +1409,7 @@
             // textFileUpDown
             // 
             this.textFileUpDown.Location = new System.Drawing.Point(376, 36);
-            this.textFileUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.textFileUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.textFileUpDown.Name = "textFileUpDown";
             this.textFileUpDown.Size = new System.Drawing.Size(107, 20);
             this.textFileUpDown.TabIndex = 47;
@@ -1472,11 +1456,7 @@
             // eventFileUpDown
             // 
             this.eventFileUpDown.Location = new System.Drawing.Point(14, 39);
-            this.eventFileUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.eventFileUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.eventFileUpDown.Name = "eventFileUpDown";
             this.eventFileUpDown.Size = new System.Drawing.Size(107, 20);
             this.eventFileUpDown.TabIndex = 42;
@@ -1575,11 +1555,7 @@
             // areaDataUpDown
             // 
             this.areaDataUpDown.Location = new System.Drawing.Point(13, 98);
-            this.areaDataUpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
+            this.areaDataUpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
             this.areaDataUpDown.Name = "areaDataUpDown";
             this.areaDataUpDown.Size = new System.Drawing.Size(93, 20);
             this.areaDataUpDown.TabIndex = 26;
@@ -1597,11 +1573,7 @@
             // matrixUpDown
             // 
             this.matrixUpDown.Location = new System.Drawing.Point(13, 40);
-            this.matrixUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.matrixUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.matrixUpDown.Name = "matrixUpDown";
             this.matrixUpDown.Size = new System.Drawing.Size(93, 20);
             this.matrixUpDown.TabIndex = 24;
@@ -1909,11 +1881,7 @@
             // cameraUpDown
             // 
             this.cameraUpDown.Location = new System.Drawing.Point(376, 108);
-            this.cameraUpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
+            this.cameraUpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
             this.cameraUpDown.Name = "cameraUpDown";
             this.cameraUpDown.Size = new System.Drawing.Size(45, 20);
             this.cameraUpDown.TabIndex = 41;
@@ -1922,11 +1890,7 @@
             // weatherUpDown
             // 
             this.weatherUpDown.Location = new System.Drawing.Point(14, 108);
-            this.weatherUpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
+            this.weatherUpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
             this.weatherUpDown.Name = "weatherUpDown";
             this.weatherUpDown.Size = new System.Drawing.Size(45, 20);
             this.weatherUpDown.TabIndex = 40;
@@ -1935,11 +1899,7 @@
             // musicNightUpDown
             // 
             this.musicNightUpDown.Location = new System.Drawing.Point(376, 40);
-            this.musicNightUpDown.Maximum = new decimal(new int[] {
-            9999,
-            0,
-            0,
-            0});
+            this.musicNightUpDown.Maximum = new decimal(new int[] { 9999, 0, 0, 0 });
             this.musicNightUpDown.Name = "musicNightUpDown";
             this.musicNightUpDown.Size = new System.Drawing.Size(45, 20);
             this.musicNightUpDown.TabIndex = 39;
@@ -1948,11 +1908,7 @@
             // musicDayUpDown
             // 
             this.musicDayUpDown.Location = new System.Drawing.Point(14, 41);
-            this.musicDayUpDown.Maximum = new decimal(new int[] {
-            9999,
-            0,
-            0,
-            0});
+            this.musicDayUpDown.Maximum = new decimal(new int[] { 9999, 0, 0, 0 });
             this.musicDayUpDown.Name = "musicDayUpDown";
             this.musicDayUpDown.Size = new System.Drawing.Size(45, 20);
             this.musicDayUpDown.TabIndex = 38;
@@ -2188,11 +2144,7 @@
             // levelScriptUpDown
             // 
             this.levelScriptUpDown.Location = new System.Drawing.Point(377, 39);
-            this.levelScriptUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.levelScriptUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.levelScriptUpDown.Name = "levelScriptUpDown";
             this.levelScriptUpDown.Size = new System.Drawing.Size(107, 20);
             this.levelScriptUpDown.TabIndex = 25;
@@ -2239,11 +2191,7 @@
             // scriptFileUpDown
             // 
             this.scriptFileUpDown.Location = new System.Drawing.Point(14, 39);
-            this.scriptFileUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.scriptFileUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.scriptFileUpDown.Name = "scriptFileUpDown";
             this.scriptFileUpDown.Size = new System.Drawing.Size(107, 20);
             this.scriptFileUpDown.TabIndex = 0;
@@ -2303,10 +2251,7 @@
             this.followModeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.followModeComboBox.FormattingEnabled = true;
             this.followModeComboBox.IntegralHeight = false;
-            this.followModeComboBox.Items.AddRange(new object[] {
-            "Unallowed",
-            "Small only",
-            "All"});
+            this.followModeComboBox.Items.AddRange(new object[] { "Unallowed", "Small only", "All" });
             this.followModeComboBox.Location = new System.Drawing.Point(153, 29);
             this.followModeComboBox.MaxDropDownItems = 20;
             this.followModeComboBox.Name = "followModeComboBox";
@@ -2383,11 +2328,7 @@
             // battleBackgroundUpDown
             // 
             this.battleBackgroundUpDown.Location = new System.Drawing.Point(154, 73);
-            this.battleBackgroundUpDown.Maximum = new decimal(new int[] {
-            31,
-            0,
-            0,
-            0});
+            this.battleBackgroundUpDown.Maximum = new decimal(new int[] { 31, 0, 0, 0 });
             this.battleBackgroundUpDown.Name = "battleBackgroundUpDown";
             this.battleBackgroundUpDown.Size = new System.Drawing.Size(75, 20);
             this.battleBackgroundUpDown.TabIndex = 36;
@@ -2544,7 +2485,7 @@
             this.setSpawnPointButton.Image = global::DSPRE.Properties.Resources.spawnCoordsMatrixeditorIcon;
             this.setSpawnPointButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.setSpawnPointButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.setSpawnPointButton.Location = new System.Drawing.Point(11, 528);
+            this.setSpawnPointButton.Location = new System.Drawing.Point(11, -674);
             this.setSpawnPointButton.Name = "setSpawnPointButton";
             this.setSpawnPointButton.Size = new System.Drawing.Size(117, 43);
             this.setSpawnPointButton.TabIndex = 35;
@@ -2560,7 +2501,7 @@
             this.saveMatrixButton.Image = global::DSPRE.Properties.Resources.save_rom;
             this.saveMatrixButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.saveMatrixButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.saveMatrixButton.Location = new System.Drawing.Point(11, 589);
+            this.saveMatrixButton.Location = new System.Drawing.Point(11, -613);
             this.saveMatrixButton.Name = "saveMatrixButton";
             this.saveMatrixButton.Size = new System.Drawing.Size(117, 43);
             this.saveMatrixButton.TabIndex = 34;
@@ -2732,9 +2673,7 @@
             // 
             // matrixTabControl
             // 
-            this.matrixTabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.matrixTabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.matrixTabControl.Controls.Add(this.headersTabPage);
             this.matrixTabControl.Controls.Add(this.heightsTabPage);
             this.matrixTabControl.Controls.Add(this.mapFilesTabPage);
@@ -2950,47 +2889,23 @@
             // heightUpDown
             // 
             this.heightUpDown.Location = new System.Drawing.Point(84, 98);
-            this.heightUpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
-            this.heightUpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.heightUpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
+            this.heightUpDown.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             this.heightUpDown.Name = "heightUpDown";
             this.heightUpDown.Size = new System.Drawing.Size(37, 20);
             this.heightUpDown.TabIndex = 16;
-            this.heightUpDown.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.heightUpDown.Value = new decimal(new int[] { 1, 0, 0, 0 });
             this.heightUpDown.ValueChanged += new System.EventHandler(this.heightUpDown_ValueChanged);
             // 
             // widthUpDown
             // 
             this.widthUpDown.Location = new System.Drawing.Point(41, 98);
-            this.widthUpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
-            this.widthUpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.widthUpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
+            this.widthUpDown.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             this.widthUpDown.Name = "widthUpDown";
             this.widthUpDown.Size = new System.Drawing.Size(37, 20);
             this.widthUpDown.TabIndex = 15;
-            this.widthUpDown.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.widthUpDown.Value = new decimal(new int[] { 1, 0, 0, 0 });
             this.widthUpDown.ValueChanged += new System.EventHandler(this.widthUpDown_ValueChanged);
             // 
             // widthLabel
@@ -3317,11 +3232,7 @@
             // 
             this.yRotDegBldUpDown.DecimalPlaces = 2;
             this.yRotDegBldUpDown.Location = new System.Drawing.Point(66, 56);
-            this.yRotDegBldUpDown.Maximum = new decimal(new int[] {
-            360,
-            0,
-            0,
-            0});
+            this.yRotDegBldUpDown.Maximum = new decimal(new int[] { 360, 0, 0, 0 });
             this.yRotDegBldUpDown.Name = "yRotDegBldUpDown";
             this.yRotDegBldUpDown.Size = new System.Drawing.Size(58, 20);
             this.yRotDegBldUpDown.TabIndex = 27;
@@ -3331,11 +3242,7 @@
             // 
             this.xRotDegBldUpDown.DecimalPlaces = 2;
             this.xRotDegBldUpDown.Location = new System.Drawing.Point(66, 20);
-            this.xRotDegBldUpDown.Maximum = new decimal(new int[] {
-            360,
-            0,
-            0,
-            0});
+            this.xRotDegBldUpDown.Maximum = new decimal(new int[] { 360, 0, 0, 0 });
             this.xRotDegBldUpDown.Name = "xRotDegBldUpDown";
             this.xRotDegBldUpDown.Size = new System.Drawing.Size(58, 20);
             this.xRotDegBldUpDown.TabIndex = 25;
@@ -3345,11 +3252,7 @@
             // 
             this.zRotDegBldUpDown.DecimalPlaces = 2;
             this.zRotDegBldUpDown.Location = new System.Drawing.Point(66, 93);
-            this.zRotDegBldUpDown.Maximum = new decimal(new int[] {
-            360,
-            0,
-            0,
-            0});
+            this.zRotDegBldUpDown.Maximum = new decimal(new int[] { 360, 0, 0, 0 });
             this.zRotDegBldUpDown.Name = "zRotDegBldUpDown";
             this.zRotDegBldUpDown.Size = new System.Drawing.Size(58, 20);
             this.zRotDegBldUpDown.TabIndex = 26;
@@ -3358,11 +3261,7 @@
             // yRotBuildUpDown
             // 
             this.yRotBuildUpDown.Location = new System.Drawing.Point(6, 56);
-            this.yRotBuildUpDown.Maximum = new decimal(new int[] {
-            65536,
-            0,
-            0,
-            0});
+            this.yRotBuildUpDown.Maximum = new decimal(new int[] { 65536, 0, 0, 0 });
             this.yRotBuildUpDown.Name = "yRotBuildUpDown";
             this.yRotBuildUpDown.Size = new System.Drawing.Size(56, 20);
             this.yRotBuildUpDown.TabIndex = 24;
@@ -3371,11 +3270,7 @@
             // xRotBuildUpDown
             // 
             this.xRotBuildUpDown.Location = new System.Drawing.Point(6, 20);
-            this.xRotBuildUpDown.Maximum = new decimal(new int[] {
-            65536,
-            0,
-            0,
-            0});
+            this.xRotBuildUpDown.Maximum = new decimal(new int[] { 65536, 0, 0, 0 });
             this.xRotBuildUpDown.Name = "xRotBuildUpDown";
             this.xRotBuildUpDown.Size = new System.Drawing.Size(56, 20);
             this.xRotBuildUpDown.TabIndex = 22;
@@ -3384,11 +3279,7 @@
             // zRotBuildUpDown
             // 
             this.zRotBuildUpDown.Location = new System.Drawing.Point(6, 93);
-            this.zRotBuildUpDown.Maximum = new decimal(new int[] {
-            65536,
-            0,
-            0,
-            0});
+            this.zRotBuildUpDown.Maximum = new decimal(new int[] { 65536, 0, 0, 0 });
             this.zRotBuildUpDown.Name = "zRotBuildUpDown";
             this.zRotBuildUpDown.Size = new System.Drawing.Size(56, 20);
             this.zRotBuildUpDown.TabIndex = 23;
@@ -3758,16 +3649,8 @@
             // 
             this.yBuildUpDown.DecimalPlaces = 5;
             this.yBuildUpDown.Location = new System.Drawing.Point(6, 56);
-            this.yBuildUpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
-            this.yBuildUpDown.Minimum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            -2147483648});
+            this.yBuildUpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
+            this.yBuildUpDown.Minimum = new decimal(new int[] { 255, 0, 0, -2147483648 });
             this.yBuildUpDown.Name = "yBuildUpDown";
             this.yBuildUpDown.Size = new System.Drawing.Size(69, 20);
             this.yBuildUpDown.TabIndex = 7;
@@ -3777,16 +3660,8 @@
             // 
             this.xBuildUpDown.DecimalPlaces = 5;
             this.xBuildUpDown.Location = new System.Drawing.Point(6, 20);
-            this.xBuildUpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
-            this.xBuildUpDown.Minimum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            -2147483648});
+            this.xBuildUpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
+            this.xBuildUpDown.Minimum = new decimal(new int[] { 255, 0, 0, -2147483648 });
             this.xBuildUpDown.Name = "xBuildUpDown";
             this.xBuildUpDown.Size = new System.Drawing.Size(69, 20);
             this.xBuildUpDown.TabIndex = 5;
@@ -3796,16 +3671,8 @@
             // 
             this.zBuildUpDown.DecimalPlaces = 5;
             this.zBuildUpDown.Location = new System.Drawing.Point(6, 93);
-            this.zBuildUpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
-            this.zBuildUpDown.Minimum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            -2147483648});
+            this.zBuildUpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
+            this.zBuildUpDown.Minimum = new decimal(new int[] { 255, 0, 0, -2147483648 });
             this.zBuildUpDown.Name = "zBuildUpDown";
             this.zBuildUpDown.Size = new System.Drawing.Size(69, 20);
             this.zBuildUpDown.TabIndex = 6;
@@ -3927,11 +3794,7 @@
             this.typePainterUpDown.Enabled = false;
             this.typePainterUpDown.Hexadecimal = true;
             this.typePainterUpDown.Location = new System.Drawing.Point(134, 101);
-            this.typePainterUpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
+            this.typePainterUpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
             this.typePainterUpDown.Name = "typePainterUpDown";
             this.typePainterUpDown.Size = new System.Drawing.Size(78, 20);
             this.typePainterUpDown.TabIndex = 3;
@@ -4118,7 +3981,7 @@
             this.modelSizeLBL.ForeColor = System.Drawing.SystemColors.ControlText;
             this.modelSizeLBL.Location = new System.Drawing.Point(104, 9);
             this.modelSizeLBL.Name = "modelSizeLBL";
-            this.modelSizeLBL.Size = new System.Drawing.Size(97, 16);
+            this.modelSizeLBL.Size = new System.Drawing.Size(98, 16);
             this.modelSizeLBL.TabIndex = 28;
             this.modelSizeLBL.Text = "ModelSizeTXT";
             // 
@@ -4130,7 +3993,7 @@
             this.nsbmdSizeLabel.ForeColor = System.Drawing.SystemColors.ControlText;
             this.nsbmdSizeLabel.Location = new System.Drawing.Point(6, 9);
             this.nsbmdSizeLabel.Name = "nsbmdSizeLabel";
-            this.nsbmdSizeLabel.Size = new System.Drawing.Size(100, 16);
+            this.nsbmdSizeLabel.Size = new System.Drawing.Size(101, 16);
             this.nsbmdSizeLabel.TabIndex = 27;
             this.nsbmdSizeLabel.Text = "3D Model Size: ";
             // 
@@ -4141,10 +4004,9 @@
             this.unsupported3DModelEditLBL.ForeColor = System.Drawing.SystemColors.ControlText;
             this.unsupported3DModelEditLBL.Location = new System.Drawing.Point(132, 248);
             this.unsupported3DModelEditLBL.Name = "unsupported3DModelEditLBL";
-            this.unsupported3DModelEditLBL.Size = new System.Drawing.Size(256, 48);
+            this.unsupported3DModelEditLBL.Size = new System.Drawing.Size(257, 48);
             this.unsupported3DModelEditLBL.TabIndex = 26;
-            this.unsupported3DModelEditLBL.Text = "DSPRE cannot edit nor create 3D models.\r\nPlease use Blender, Sketchup, or \r\nTrifi" +
-    "ndo\'s Pokemon DS Map Studio.";
+            this.unsupported3DModelEditLBL.Text = "DSPRE cannot edit nor create 3D models.\r\nPlease use Blender, Sketchup, or \r\nTrifi" + "ndo\'s Pokemon DS Map Studio.";
             this.unsupported3DModelEditLBL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // importMapButton
@@ -4194,7 +4056,7 @@
             this.terrainSizeLBL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.terrainSizeLBL.Location = new System.Drawing.Point(124, 9);
             this.terrainSizeLBL.Name = "terrainSizeLBL";
-            this.terrainSizeLBL.Size = new System.Drawing.Size(102, 16);
+            this.terrainSizeLBL.Size = new System.Drawing.Size(103, 16);
             this.terrainSizeLBL.TabIndex = 30;
             this.terrainSizeLBL.Text = "TerrainSizeTXT";
             // 
@@ -4204,7 +4066,7 @@
             this.terrainDataLBL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.terrainDataLBL.Location = new System.Drawing.Point(6, 9);
             this.terrainDataLBL.Name = "terrainDataLBL";
-            this.terrainDataLBL.Size = new System.Drawing.Size(117, 16);
+            this.terrainDataLBL.Size = new System.Drawing.Size(118, 16);
             this.terrainDataLBL.TabIndex = 29;
             this.terrainDataLBL.Text = "Terrain Data Size: ";
             // 
@@ -4214,10 +4076,9 @@
             this.unsupportedBDHCEditLBL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.unsupportedBDHCEditLBL.Location = new System.Drawing.Point(113, 257);
             this.unsupportedBDHCEditLBL.Name = "unsupportedBDHCEditLBL";
-            this.unsupportedBDHCEditLBL.Size = new System.Drawing.Size(290, 32);
+            this.unsupportedBDHCEditLBL.Size = new System.Drawing.Size(291, 32);
             this.unsupportedBDHCEditLBL.TabIndex = 28;
-            this.unsupportedBDHCEditLBL.Text = "DSPRE cannot edit nor create BDHC data.\r\nPlease use Trifindo\'s Pokemon DS Map Stu" +
-    "dio.";
+            this.unsupportedBDHCEditLBL.Text = "DSPRE cannot edit nor create BDHC data.\r\nPlease use Trifindo\'s Pokemon DS Map Stu" + "dio.";
             this.unsupportedBDHCEditLBL.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // bdhcImportButton
@@ -4282,7 +4143,7 @@
             this.BGSSizeLBL.ForeColor = System.Drawing.SystemColors.ControlText;
             this.BGSSizeLBL.Location = new System.Drawing.Point(73, 9);
             this.BGSSizeLBL.Name = "BGSSizeLBL";
-            this.BGSSizeLBL.Size = new System.Drawing.Size(84, 16);
+            this.BGSSizeLBL.Size = new System.Drawing.Size(85, 16);
             this.BGSSizeLBL.TabIndex = 33;
             this.BGSSizeLBL.Text = "BGSSizeLBL";
             // 
@@ -4292,7 +4153,7 @@
             this.bgsDataLBL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bgsDataLBL.Location = new System.Drawing.Point(7, 9);
             this.bgsDataLBL.Name = "bgsDataLBL";
-            this.bgsDataLBL.Size = new System.Drawing.Size(73, 16);
+            this.bgsDataLBL.Size = new System.Drawing.Size(74, 16);
             this.bgsDataLBL.TabIndex = 32;
             this.bgsDataLBL.Text = "BGS Data: ";
             // 
@@ -4302,10 +4163,9 @@
             this.unsupportedBGSEditLBL.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.unsupportedBGSEditLBL.Location = new System.Drawing.Point(73, 266);
             this.unsupportedBGSEditLBL.Name = "unsupportedBGSEditLBL";
-            this.unsupportedBGSEditLBL.Size = new System.Drawing.Size(338, 32);
+            this.unsupportedBGSEditLBL.Size = new System.Drawing.Size(339, 32);
             this.unsupportedBGSEditLBL.TabIndex = 31;
-            this.unsupportedBGSEditLBL.Text = "DSPRE cannot edit nor create Background Sound Files.\r\nPlease use Trifindo\'s Pokem" +
-    "on DS Map Studio.\r\n";
+            this.unsupportedBGSEditLBL.Text = "DSPRE cannot edit nor create Background Sound Files.\r\nPlease use Trifindo\'s Pokem" + "on DS Map Studio.\r\n";
             this.unsupportedBGSEditLBL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // soundPlatesImportButton
@@ -4341,7 +4201,7 @@
             this.radio3D.AutoSize = true;
             this.radio3D.Checked = true;
             this.radio3D.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.radio3D.Location = new System.Drawing.Point(1140, 35);
+            this.radio3D.Location = new System.Drawing.Point(-846, -1167);
             this.radio3D.Name = "radio3D";
             this.radio3D.Size = new System.Drawing.Size(31, 23);
             this.radio3D.TabIndex = 26;
@@ -4356,7 +4216,7 @@
             this.radio2D.Appearance = System.Windows.Forms.Appearance.Button;
             this.radio2D.AutoSize = true;
             this.radio2D.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.radio2D.Location = new System.Drawing.Point(1140, 6);
+            this.radio2D.Location = new System.Drawing.Point(-846, -1196);
             this.radio2D.Name = "radio2D";
             this.radio2D.Size = new System.Drawing.Size(31, 23);
             this.radio2D.TabIndex = 25;
@@ -4371,7 +4231,7 @@
             this.wireframeCheckBox.Appearance = System.Windows.Forms.Appearance.Button;
             this.wireframeCheckBox.AutoSize = true;
             this.wireframeCheckBox.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.wireframeCheckBox.Location = new System.Drawing.Point(1140, 64);
+            this.wireframeCheckBox.Location = new System.Drawing.Point(1140, -1138);
             this.wireframeCheckBox.Name = "wireframeCheckBox";
             this.wireframeCheckBox.Size = new System.Drawing.Size(31, 23);
             this.wireframeCheckBox.TabIndex = 27;
@@ -4688,11 +4548,7 @@
             // 
             this.areaDataDynamicTexturesNumericUpDown.Enabled = false;
             this.areaDataDynamicTexturesNumericUpDown.Location = new System.Drawing.Point(400, 157);
-            this.areaDataDynamicTexturesNumericUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.areaDataDynamicTexturesNumericUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.areaDataDynamicTexturesNumericUpDown.Name = "areaDataDynamicTexturesNumericUpDown";
             this.areaDataDynamicTexturesNumericUpDown.Size = new System.Drawing.Size(82, 20);
             this.areaDataDynamicTexturesNumericUpDown.TabIndex = 7;
@@ -4729,11 +4585,7 @@
             // areaDataMapTilesetUpDown
             // 
             this.areaDataMapTilesetUpDown.Location = new System.Drawing.Point(191, 157);
-            this.areaDataMapTilesetUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.areaDataMapTilesetUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.areaDataMapTilesetUpDown.Name = "areaDataMapTilesetUpDown";
             this.areaDataMapTilesetUpDown.Size = new System.Drawing.Size(82, 20);
             this.areaDataMapTilesetUpDown.TabIndex = 3;
@@ -4751,11 +4603,7 @@
             // areaDataBuildingTilesetUpDown
             // 
             this.areaDataBuildingTilesetUpDown.Location = new System.Drawing.Point(296, 157);
-            this.areaDataBuildingTilesetUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.areaDataBuildingTilesetUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.areaDataBuildingTilesetUpDown.Name = "areaDataBuildingTilesetUpDown";
             this.areaDataBuildingTilesetUpDown.Size = new System.Drawing.Size(82, 20);
             this.areaDataBuildingTilesetUpDown.TabIndex = 1;
@@ -5013,11 +4861,7 @@
             // eventAreaDataUpDown
             // 
             this.eventAreaDataUpDown.Location = new System.Drawing.Point(9, 108);
-            this.eventAreaDataUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.eventAreaDataUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.eventAreaDataUpDown.Name = "eventAreaDataUpDown";
             this.eventAreaDataUpDown.Size = new System.Drawing.Size(40, 20);
             this.eventAreaDataUpDown.TabIndex = 30;
@@ -5151,11 +4995,7 @@
             // eventMatrixUpDown
             // 
             this.eventMatrixUpDown.Location = new System.Drawing.Point(466, 101);
-            this.eventMatrixUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.eventMatrixUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.eventMatrixUpDown.Name = "eventMatrixUpDown";
             this.eventMatrixUpDown.Size = new System.Drawing.Size(40, 20);
             this.eventMatrixUpDown.TabIndex = 28;
@@ -5272,11 +5112,7 @@
             // spawnableXMatrixUpDown
             // 
             this.spawnableXMatrixUpDown.Location = new System.Drawing.Point(74, 74);
-            this.spawnableXMatrixUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.spawnableXMatrixUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.spawnableXMatrixUpDown.Name = "spawnableXMatrixUpDown";
             this.spawnableXMatrixUpDown.Size = new System.Drawing.Size(101, 20);
             this.spawnableXMatrixUpDown.TabIndex = 16;
@@ -5294,11 +5130,7 @@
             // spawnableYMatrixUpDown
             // 
             this.spawnableYMatrixUpDown.Location = new System.Drawing.Point(74, 104);
-            this.spawnableYMatrixUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.spawnableYMatrixUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.spawnableYMatrixUpDown.Name = "spawnableYMatrixUpDown";
             this.spawnableYMatrixUpDown.Size = new System.Drawing.Size(101, 20);
             this.spawnableYMatrixUpDown.TabIndex = 18;
@@ -5316,16 +5148,8 @@
             // spawnablexMapUpDown
             // 
             this.spawnablexMapUpDown.Location = new System.Drawing.Point(28, 38);
-            this.spawnablexMapUpDown.Maximum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            0});
-            this.spawnablexMapUpDown.Minimum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            -2147483648});
+            this.spawnablexMapUpDown.Maximum = new decimal(new int[] { 32768, 0, 0, 0 });
+            this.spawnablexMapUpDown.Minimum = new decimal(new int[] { 32768, 0, 0, -2147483648 });
             this.spawnablexMapUpDown.Name = "spawnablexMapUpDown";
             this.spawnablexMapUpDown.Size = new System.Drawing.Size(36, 20);
             this.spawnablexMapUpDown.TabIndex = 10;
@@ -5334,16 +5158,8 @@
             // spawnableUpDown
             // 
             this.spawnableUpDown.Location = new System.Drawing.Point(138, 38);
-            this.spawnableUpDown.Maximum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            0});
-            this.spawnableUpDown.Minimum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            -2147483648});
+            this.spawnableUpDown.Maximum = new decimal(new int[] { 32768, 0, 0, 0 });
+            this.spawnableUpDown.Minimum = new decimal(new int[] { 32768, 0, 0, -2147483648 });
             this.spawnableUpDown.Name = "spawnableUpDown";
             this.spawnableUpDown.Size = new System.Drawing.Size(36, 20);
             this.spawnableUpDown.TabIndex = 14;
@@ -5361,11 +5177,7 @@
             // spawnableYMapUpDown
             // 
             this.spawnableYMapUpDown.Location = new System.Drawing.Point(83, 38);
-            this.spawnableYMapUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.spawnableYMapUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.spawnableYMapUpDown.Name = "spawnableYMapUpDown";
             this.spawnableYMapUpDown.Size = new System.Drawing.Size(36, 20);
             this.spawnableYMapUpDown.TabIndex = 12;
@@ -5437,11 +5249,7 @@
             // spawnableScriptUpDown
             // 
             this.spawnableScriptUpDown.Location = new System.Drawing.Point(325, 22);
-            this.spawnableScriptUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.spawnableScriptUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.spawnableScriptUpDown.Name = "spawnableScriptUpDown";
             this.spawnableScriptUpDown.Size = new System.Drawing.Size(108, 20);
             this.spawnableScriptUpDown.TabIndex = 3;
@@ -5598,11 +5406,7 @@
             // owYMatrixUpDown
             // 
             this.owYMatrixUpDown.Location = new System.Drawing.Point(67, 25);
-            this.owYMatrixUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.owYMatrixUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.owYMatrixUpDown.Name = "owYMatrixUpDown";
             this.owYMatrixUpDown.Size = new System.Drawing.Size(35, 20);
             this.owYMatrixUpDown.TabIndex = 6;
@@ -5620,11 +5424,7 @@
             // owXMatrixUpDown
             // 
             this.owXMatrixUpDown.Location = new System.Drawing.Point(18, 24);
-            this.owXMatrixUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.owXMatrixUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.owXMatrixUpDown.Name = "owXMatrixUpDown";
             this.owXMatrixUpDown.Size = new System.Drawing.Size(33, 20);
             this.owXMatrixUpDown.TabIndex = 4;
@@ -5686,11 +5486,7 @@
             // owXRangeUpDown
             // 
             this.owXRangeUpDown.Location = new System.Drawing.Point(18, 17);
-            this.owXRangeUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.owXRangeUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.owXRangeUpDown.Name = "owXRangeUpDown";
             this.owXRangeUpDown.Size = new System.Drawing.Size(38, 20);
             this.owXRangeUpDown.TabIndex = 1;
@@ -5699,11 +5495,7 @@
             // owYRangeUpDown
             // 
             this.owYRangeUpDown.Location = new System.Drawing.Point(77, 17);
-            this.owYRangeUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.owYRangeUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.owYRangeUpDown.Name = "owYRangeUpDown";
             this.owYRangeUpDown.Size = new System.Drawing.Size(38, 20);
             this.owYRangeUpDown.TabIndex = 2;
@@ -5722,11 +5514,7 @@
             // 
             this.owOrientationComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.owOrientationComboBox.FormattingEnabled = true;
-            this.owOrientationComboBox.Items.AddRange(new object[] {
-            "Up",
-            "Down",
-            "Left",
-            "Right"});
+            this.owOrientationComboBox.Items.AddRange(new object[] { "Up", "Down", "Left", "Right" });
             this.owOrientationComboBox.Location = new System.Drawing.Point(11, 61);
             this.owOrientationComboBox.Name = "owOrientationComboBox";
             this.owOrientationComboBox.Size = new System.Drawing.Size(82, 21);
@@ -5770,16 +5558,8 @@
             // owXMapUpDown
             // 
             this.owXMapUpDown.Location = new System.Drawing.Point(18, 24);
-            this.owXMapUpDown.Maximum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            0});
-            this.owXMapUpDown.Minimum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            -2147483648});
+            this.owXMapUpDown.Maximum = new decimal(new int[] { 32768, 0, 0, 0 });
+            this.owXMapUpDown.Minimum = new decimal(new int[] { 32768, 0, 0, -2147483648 });
             this.owXMapUpDown.Name = "owXMapUpDown";
             this.owXMapUpDown.Size = new System.Drawing.Size(35, 20);
             this.owXMapUpDown.TabIndex = 0;
@@ -5788,16 +5568,8 @@
             // owZPositionUpDown
             // 
             this.owZPositionUpDown.Location = new System.Drawing.Point(136, 24);
-            this.owZPositionUpDown.Maximum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            0});
-            this.owZPositionUpDown.Minimum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            -2147483648});
+            this.owZPositionUpDown.Maximum = new decimal(new int[] { 32768, 0, 0, 0 });
+            this.owZPositionUpDown.Minimum = new decimal(new int[] { 32768, 0, 0, -2147483648 });
             this.owZPositionUpDown.Name = "owZPositionUpDown";
             this.owZPositionUpDown.Size = new System.Drawing.Size(35, 20);
             this.owZPositionUpDown.TabIndex = 8;
@@ -5815,16 +5587,8 @@
             // owYMapUpDown
             // 
             this.owYMapUpDown.Location = new System.Drawing.Point(77, 24);
-            this.owYMapUpDown.Maximum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            0});
-            this.owYMapUpDown.Minimum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            -2147483648});
+            this.owYMapUpDown.Maximum = new decimal(new int[] { 32768, 0, 0, 0 });
+            this.owYMapUpDown.Minimum = new decimal(new int[] { 32768, 0, 0, -2147483648 });
             this.owYMapUpDown.Name = "owYMapUpDown";
             this.owYMapUpDown.Size = new System.Drawing.Size(35, 20);
             this.owYMapUpDown.TabIndex = 2;
@@ -5923,11 +5687,7 @@
             // 
             this.owSightRangeUpDown.Enabled = false;
             this.owSightRangeUpDown.Location = new System.Drawing.Point(108, 46);
-            this.owSightRangeUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.owSightRangeUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.owSightRangeUpDown.Name = "owSightRangeUpDown";
             this.owSightRangeUpDown.Size = new System.Drawing.Size(48, 20);
             this.owSightRangeUpDown.TabIndex = 2;
@@ -5955,11 +5715,7 @@
             // owScriptNumericUpDown
             // 
             this.owScriptNumericUpDown.Location = new System.Drawing.Point(368, 22);
-            this.owScriptNumericUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.owScriptNumericUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.owScriptNumericUpDown.Name = "owScriptNumericUpDown";
             this.owScriptNumericUpDown.Size = new System.Drawing.Size(54, 20);
             this.owScriptNumericUpDown.TabIndex = 12;
@@ -5977,11 +5733,7 @@
             // owFlagNumericUpDown
             // 
             this.owFlagNumericUpDown.Location = new System.Drawing.Point(286, 22);
-            this.owFlagNumericUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.owFlagNumericUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.owFlagNumericUpDown.Name = "owFlagNumericUpDown";
             this.owFlagNumericUpDown.Size = new System.Drawing.Size(60, 20);
             this.owFlagNumericUpDown.TabIndex = 10;
@@ -6018,11 +5770,7 @@
             // owIDNumericUpDown
             // 
             this.owIDNumericUpDown.Location = new System.Drawing.Point(201, 22);
-            this.owIDNumericUpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
+            this.owIDNumericUpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
             this.owIDNumericUpDown.Name = "owIDNumericUpDown";
             this.owIDNumericUpDown.Size = new System.Drawing.Size(63, 20);
             this.owIDNumericUpDown.TabIndex = 6;
@@ -6162,11 +5910,7 @@
             // warpAnchorUpDown
             // 
             this.warpAnchorUpDown.Location = new System.Drawing.Point(138, 73);
-            this.warpAnchorUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.warpAnchorUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.warpAnchorUpDown.Name = "warpAnchorUpDown";
             this.warpAnchorUpDown.Size = new System.Drawing.Size(94, 20);
             this.warpAnchorUpDown.TabIndex = 29;
@@ -6231,11 +5975,7 @@
             // warpXMatrixUpDown
             // 
             this.warpXMatrixUpDown.Location = new System.Drawing.Point(49, 23);
-            this.warpXMatrixUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.warpXMatrixUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.warpXMatrixUpDown.Name = "warpXMatrixUpDown";
             this.warpXMatrixUpDown.Size = new System.Drawing.Size(47, 20);
             this.warpXMatrixUpDown.TabIndex = 21;
@@ -6253,11 +5993,7 @@
             // warpYMatrixUpDown
             // 
             this.warpYMatrixUpDown.Location = new System.Drawing.Point(157, 23);
-            this.warpYMatrixUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.warpYMatrixUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.warpYMatrixUpDown.Name = "warpYMatrixUpDown";
             this.warpYMatrixUpDown.Size = new System.Drawing.Size(47, 20);
             this.warpYMatrixUpDown.TabIndex = 23;
@@ -6281,16 +6017,8 @@
             // warpXMapUpDown
             // 
             this.warpXMapUpDown.Location = new System.Drawing.Point(25, 19);
-            this.warpXMapUpDown.Maximum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            0});
-            this.warpXMapUpDown.Minimum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            -2147483648});
+            this.warpXMapUpDown.Maximum = new decimal(new int[] { 32768, 0, 0, 0 });
+            this.warpXMapUpDown.Minimum = new decimal(new int[] { 32768, 0, 0, -2147483648 });
             this.warpXMapUpDown.Name = "warpXMapUpDown";
             this.warpXMapUpDown.Size = new System.Drawing.Size(34, 20);
             this.warpXMapUpDown.TabIndex = 10;
@@ -6317,16 +6045,8 @@
             // warpYMapUpDown
             // 
             this.warpYMapUpDown.Location = new System.Drawing.Point(100, 19);
-            this.warpYMapUpDown.Maximum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            0});
-            this.warpYMapUpDown.Minimum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            -2147483648});
+            this.warpYMapUpDown.Maximum = new decimal(new int[] { 32768, 0, 0, 0 });
+            this.warpYMapUpDown.Minimum = new decimal(new int[] { 32768, 0, 0, -2147483648 });
             this.warpYMapUpDown.Name = "warpYMapUpDown";
             this.warpYMapUpDown.Size = new System.Drawing.Size(34, 20);
             this.warpYMapUpDown.TabIndex = 12;
@@ -6335,16 +6055,8 @@
             // warpZUpDown
             // 
             this.warpZUpDown.Location = new System.Drawing.Point(175, 19);
-            this.warpZUpDown.Maximum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            0});
-            this.warpZUpDown.Minimum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            -2147483648});
+            this.warpZUpDown.Maximum = new decimal(new int[] { 32768, 0, 0, 0 });
+            this.warpZUpDown.Minimum = new decimal(new int[] { 32768, 0, 0, -2147483648 });
             this.warpZUpDown.Name = "warpZUpDown";
             this.warpZUpDown.Size = new System.Drawing.Size(34, 20);
             this.warpZUpDown.TabIndex = 14;
@@ -6430,11 +6142,7 @@
             // expectedVarValueTriggerUpDown
             // 
             this.expectedVarValueTriggerUpDown.Location = new System.Drawing.Point(112, 36);
-            this.expectedVarValueTriggerUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.expectedVarValueTriggerUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.expectedVarValueTriggerUpDown.Name = "expectedVarValueTriggerUpDown";
             this.expectedVarValueTriggerUpDown.Size = new System.Drawing.Size(71, 20);
             this.expectedVarValueTriggerUpDown.TabIndex = 37;
@@ -6452,11 +6160,7 @@
             // triggerVariableWatchedUpDown
             // 
             this.triggerVariableWatchedUpDown.Location = new System.Drawing.Point(17, 36);
-            this.triggerVariableWatchedUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.triggerVariableWatchedUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.triggerVariableWatchedUpDown.Name = "triggerVariableWatchedUpDown";
             this.triggerVariableWatchedUpDown.Size = new System.Drawing.Size(71, 20);
             this.triggerVariableWatchedUpDown.TabIndex = 26;
@@ -6474,11 +6178,7 @@
             // triggerScriptUpDown
             // 
             this.triggerScriptUpDown.Location = new System.Drawing.Point(68, 77);
-            this.triggerScriptUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.triggerScriptUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.triggerScriptUpDown.Name = "triggerScriptUpDown";
             this.triggerScriptUpDown.Size = new System.Drawing.Size(66, 20);
             this.triggerScriptUpDown.TabIndex = 23;
@@ -6518,11 +6218,7 @@
             // triggerLengthUpDown
             // 
             this.triggerLengthUpDown.Location = new System.Drawing.Point(119, 36);
-            this.triggerLengthUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.triggerLengthUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.triggerLengthUpDown.Name = "triggerLengthUpDown";
             this.triggerLengthUpDown.Size = new System.Drawing.Size(64, 20);
             this.triggerLengthUpDown.TabIndex = 34;
@@ -6540,11 +6236,7 @@
             // triggerWidthUpDown
             // 
             this.triggerWidthUpDown.Location = new System.Drawing.Point(18, 36);
-            this.triggerWidthUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.triggerWidthUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.triggerWidthUpDown.Name = "triggerWidthUpDown";
             this.triggerWidthUpDown.Size = new System.Drawing.Size(62, 20);
             this.triggerWidthUpDown.TabIndex = 32;
@@ -6577,16 +6269,8 @@
             // triggerXMapUpDown
             // 
             this.triggerXMapUpDown.Location = new System.Drawing.Point(28, 23);
-            this.triggerXMapUpDown.Maximum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            0});
-            this.triggerXMapUpDown.Minimum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            -2147483648});
+            this.triggerXMapUpDown.Maximum = new decimal(new int[] { 32768, 0, 0, 0 });
+            this.triggerXMapUpDown.Minimum = new decimal(new int[] { 32768, 0, 0, -2147483648 });
             this.triggerXMapUpDown.Name = "triggerXMapUpDown";
             this.triggerXMapUpDown.Size = new System.Drawing.Size(34, 20);
             this.triggerXMapUpDown.TabIndex = 16;
@@ -6595,16 +6279,8 @@
             // triggerZUpDown
             // 
             this.triggerZUpDown.Location = new System.Drawing.Point(156, 23);
-            this.triggerZUpDown.Maximum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            0});
-            this.triggerZUpDown.Minimum = new decimal(new int[] {
-            32768,
-            0,
-            0,
-            -2147483648});
+            this.triggerZUpDown.Maximum = new decimal(new int[] { 32768, 0, 0, 0 });
+            this.triggerZUpDown.Minimum = new decimal(new int[] { 32768, 0, 0, -2147483648 });
             this.triggerZUpDown.Name = "triggerZUpDown";
             this.triggerZUpDown.Size = new System.Drawing.Size(34, 20);
             this.triggerZUpDown.TabIndex = 20;
@@ -6622,11 +6298,7 @@
             // triggerYMapUpDown
             // 
             this.triggerYMapUpDown.Location = new System.Drawing.Point(91, 23);
-            this.triggerYMapUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.triggerYMapUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.triggerYMapUpDown.Name = "triggerYMapUpDown";
             this.triggerYMapUpDown.Size = new System.Drawing.Size(34, 20);
             this.triggerYMapUpDown.TabIndex = 18;
@@ -6680,11 +6352,7 @@
             // triggerXMatrixUpDown
             // 
             this.triggerXMatrixUpDown.Location = new System.Drawing.Point(52, 21);
-            this.triggerXMatrixUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.triggerXMatrixUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.triggerXMatrixUpDown.Name = "triggerXMatrixUpDown";
             this.triggerXMatrixUpDown.Size = new System.Drawing.Size(37, 20);
             this.triggerXMatrixUpDown.TabIndex = 16;
@@ -6702,11 +6370,7 @@
             // triggerYMatrixUpDown
             // 
             this.triggerYMatrixUpDown.Location = new System.Drawing.Point(152, 21);
-            this.triggerYMatrixUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.triggerYMatrixUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.triggerYMatrixUpDown.Name = "triggerYMatrixUpDown";
             this.triggerYMatrixUpDown.Size = new System.Drawing.Size(37, 20);
             this.triggerYMatrixUpDown.TabIndex = 18;
@@ -6801,8 +6465,7 @@
             // 
             // rightClickPicture
             // 
-            this.rightClickPicture.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.rightClickPicture.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.rightClickPicture.Image = global::DSPRE.Properties.Resources.RightClick;
             this.rightClickPicture.ImageLocation = "";
             this.rightClickPicture.Location = new System.Drawing.Point(468, 420);
@@ -6814,8 +6477,7 @@
             // 
             // wheelClickPicture
             // 
-            this.wheelClickPicture.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.wheelClickPicture.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.wheelClickPicture.Image = global::DSPRE.Properties.Resources.WheelClick;
             this.wheelClickPicture.ImageLocation = "";
             this.wheelClickPicture.Location = new System.Drawing.Point(552, 420);
@@ -6827,8 +6489,7 @@
             // 
             // LeftClickPicture
             // 
-            this.LeftClickPicture.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.LeftClickPicture.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.LeftClickPicture.Image = global::DSPRE.Properties.Resources.LeftClick;
             this.LeftClickPicture.ImageLocation = "";
             this.LeftClickPicture.Location = new System.Drawing.Point(510, 420);
@@ -7372,8 +7033,7 @@
             this.textEditorDataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.textEditorDataGridView.ColumnHeadersHeight = 29;
             this.textEditorDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.textEditorDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.messageColumn});
+            this.textEditorDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { this.messageColumn });
             this.textEditorDataGridView.Location = new System.Drawing.Point(12, 77);
             this.textEditorDataGridView.Name = "textEditorDataGridView";
             this.textEditorDataGridView.RowHeadersWidth = 68;
@@ -7486,20 +7146,7 @@
             dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.cameraEditorDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
             this.cameraEditorDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.cameraEditorDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.DistanceGVCol,
-            this.VertRotGVCol,
-            this.HoriRotGVCol,
-            this.zRotGVCol,
-            this.OrthoGVCol,
-            this.FovGVCol,
-            this.NearClipGVCol,
-            this.FarClipGVCol,
-            this.XDispGVCol,
-            this.YDispGVCol,
-            this.ZDispGVCol,
-            this.ExportBTN,
-            this.ImportBTN});
+            this.cameraEditorDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { this.DistanceGVCol, this.VertRotGVCol, this.HoriRotGVCol, this.zRotGVCol, this.OrthoGVCol, this.FovGVCol, this.NearClipGVCol, this.FarClipGVCol, this.XDispGVCol, this.YDispGVCol, this.ZDispGVCol, this.ExportBTN, this.ImportBTN });
             this.cameraEditorDataGridView.Location = new System.Drawing.Point(5, 4);
             this.cameraEditorDataGridView.MultiSelect = false;
             this.cameraEditorDataGridView.Name = "cameraEditorDataGridView";
@@ -7791,8 +7438,7 @@
             // 
             this.partyForm6ComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.partyForm6ComboBox.FormattingEnabled = true;
-            this.partyForm6ComboBox.Items.AddRange(new object[] {
-            "Defense form"});
+            this.partyForm6ComboBox.Items.AddRange(new object[] { "Defense form" });
             this.partyForm6ComboBox.Location = new System.Drawing.Point(228, 151);
             this.partyForm6ComboBox.Name = "partyForm6ComboBox";
             this.partyForm6ComboBox.Size = new System.Drawing.Size(103, 21);
@@ -7917,11 +7563,7 @@
             // partyIV6UpDown
             // 
             this.partyIV6UpDown.Location = new System.Drawing.Point(48, 92);
-            this.partyIV6UpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
+            this.partyIV6UpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
             this.partyIV6UpDown.Name = "partyIV6UpDown";
             this.partyIV6UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyIV6UpDown.TabIndex = 5;
@@ -7929,28 +7571,16 @@
             // partyLevel6UpDown
             // 
             this.partyLevel6UpDown.Location = new System.Drawing.Point(48, 63);
-            this.partyLevel6UpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.partyLevel6UpDown.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             this.partyLevel6UpDown.Name = "partyLevel6UpDown";
             this.partyLevel6UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyLevel6UpDown.TabIndex = 4;
-            this.partyLevel6UpDown.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.partyLevel6UpDown.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // partyBall6UpDown
             // 
             this.partyBall6UpDown.Location = new System.Drawing.Point(48, 121);
-            this.partyBall6UpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.partyBall6UpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.partyBall6UpDown.Name = "partyBall6UpDown";
             this.partyBall6UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyBall6UpDown.TabIndex = 3;
@@ -8015,8 +7645,7 @@
             // 
             this.partyForm5ComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.partyForm5ComboBox.FormattingEnabled = true;
-            this.partyForm5ComboBox.Items.AddRange(new object[] {
-            "Defense form"});
+            this.partyForm5ComboBox.Items.AddRange(new object[] { "Defense form" });
             this.partyForm5ComboBox.Location = new System.Drawing.Point(228, 151);
             this.partyForm5ComboBox.Name = "partyForm5ComboBox";
             this.partyForm5ComboBox.Size = new System.Drawing.Size(103, 21);
@@ -8141,11 +7770,7 @@
             // partyIV5UpDown
             // 
             this.partyIV5UpDown.Location = new System.Drawing.Point(48, 92);
-            this.partyIV5UpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
+            this.partyIV5UpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
             this.partyIV5UpDown.Name = "partyIV5UpDown";
             this.partyIV5UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyIV5UpDown.TabIndex = 5;
@@ -8153,28 +7778,16 @@
             // partyLevel5UpDown
             // 
             this.partyLevel5UpDown.Location = new System.Drawing.Point(48, 63);
-            this.partyLevel5UpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.partyLevel5UpDown.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             this.partyLevel5UpDown.Name = "partyLevel5UpDown";
             this.partyLevel5UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyLevel5UpDown.TabIndex = 4;
-            this.partyLevel5UpDown.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.partyLevel5UpDown.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // partyBall5UpDown
             // 
             this.partyBall5UpDown.Location = new System.Drawing.Point(48, 121);
-            this.partyBall5UpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.partyBall5UpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.partyBall5UpDown.Name = "partyBall5UpDown";
             this.partyBall5UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyBall5UpDown.TabIndex = 3;
@@ -8239,8 +7852,7 @@
             // 
             this.partyForm4ComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.partyForm4ComboBox.FormattingEnabled = true;
-            this.partyForm4ComboBox.Items.AddRange(new object[] {
-            "Defense form"});
+            this.partyForm4ComboBox.Items.AddRange(new object[] { "Defense form" });
             this.partyForm4ComboBox.Location = new System.Drawing.Point(228, 151);
             this.partyForm4ComboBox.Name = "partyForm4ComboBox";
             this.partyForm4ComboBox.Size = new System.Drawing.Size(103, 21);
@@ -8365,11 +7977,7 @@
             // partyIV4UpDown
             // 
             this.partyIV4UpDown.Location = new System.Drawing.Point(48, 92);
-            this.partyIV4UpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
+            this.partyIV4UpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
             this.partyIV4UpDown.Name = "partyIV4UpDown";
             this.partyIV4UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyIV4UpDown.TabIndex = 5;
@@ -8377,28 +7985,16 @@
             // partyLevel4UpDown
             // 
             this.partyLevel4UpDown.Location = new System.Drawing.Point(48, 63);
-            this.partyLevel4UpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.partyLevel4UpDown.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             this.partyLevel4UpDown.Name = "partyLevel4UpDown";
             this.partyLevel4UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyLevel4UpDown.TabIndex = 4;
-            this.partyLevel4UpDown.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.partyLevel4UpDown.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // partyBall4UpDown
             // 
             this.partyBall4UpDown.Location = new System.Drawing.Point(48, 121);
-            this.partyBall4UpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.partyBall4UpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.partyBall4UpDown.Name = "partyBall4UpDown";
             this.partyBall4UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyBall4UpDown.TabIndex = 3;
@@ -8463,8 +8059,7 @@
             // 
             this.partyForm3ComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.partyForm3ComboBox.FormattingEnabled = true;
-            this.partyForm3ComboBox.Items.AddRange(new object[] {
-            "Defense form"});
+            this.partyForm3ComboBox.Items.AddRange(new object[] { "Defense form" });
             this.partyForm3ComboBox.Location = new System.Drawing.Point(228, 151);
             this.partyForm3ComboBox.Name = "partyForm3ComboBox";
             this.partyForm3ComboBox.Size = new System.Drawing.Size(103, 21);
@@ -8589,11 +8184,7 @@
             // partyIV3UpDown
             // 
             this.partyIV3UpDown.Location = new System.Drawing.Point(48, 92);
-            this.partyIV3UpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
+            this.partyIV3UpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
             this.partyIV3UpDown.Name = "partyIV3UpDown";
             this.partyIV3UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyIV3UpDown.TabIndex = 5;
@@ -8601,28 +8192,16 @@
             // partyLevel3UpDown
             // 
             this.partyLevel3UpDown.Location = new System.Drawing.Point(48, 63);
-            this.partyLevel3UpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.partyLevel3UpDown.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             this.partyLevel3UpDown.Name = "partyLevel3UpDown";
             this.partyLevel3UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyLevel3UpDown.TabIndex = 4;
-            this.partyLevel3UpDown.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.partyLevel3UpDown.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // partyBall3UpDown
             // 
             this.partyBall3UpDown.Location = new System.Drawing.Point(48, 121);
-            this.partyBall3UpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.partyBall3UpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.partyBall3UpDown.Name = "partyBall3UpDown";
             this.partyBall3UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyBall3UpDown.TabIndex = 3;
@@ -8687,8 +8266,7 @@
             // 
             this.partyForm2ComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.partyForm2ComboBox.FormattingEnabled = true;
-            this.partyForm2ComboBox.Items.AddRange(new object[] {
-            "Defense form"});
+            this.partyForm2ComboBox.Items.AddRange(new object[] { "Defense form" });
             this.partyForm2ComboBox.Location = new System.Drawing.Point(228, 151);
             this.partyForm2ComboBox.Name = "partyForm2ComboBox";
             this.partyForm2ComboBox.Size = new System.Drawing.Size(103, 21);
@@ -8813,11 +8391,7 @@
             // partyIV2UpDown
             // 
             this.partyIV2UpDown.Location = new System.Drawing.Point(48, 92);
-            this.partyIV2UpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
+            this.partyIV2UpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
             this.partyIV2UpDown.Name = "partyIV2UpDown";
             this.partyIV2UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyIV2UpDown.TabIndex = 5;
@@ -8825,28 +8399,16 @@
             // partyLevel2UpDown
             // 
             this.partyLevel2UpDown.Location = new System.Drawing.Point(48, 63);
-            this.partyLevel2UpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.partyLevel2UpDown.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             this.partyLevel2UpDown.Name = "partyLevel2UpDown";
             this.partyLevel2UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyLevel2UpDown.TabIndex = 4;
-            this.partyLevel2UpDown.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.partyLevel2UpDown.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // partyBall2UpDown
             // 
             this.partyBall2UpDown.Location = new System.Drawing.Point(48, 121);
-            this.partyBall2UpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.partyBall2UpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.partyBall2UpDown.Name = "partyBall2UpDown";
             this.partyBall2UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyBall2UpDown.TabIndex = 3;
@@ -8911,8 +8473,7 @@
             // 
             this.partyForm1ComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.partyForm1ComboBox.FormattingEnabled = true;
-            this.partyForm1ComboBox.Items.AddRange(new object[] {
-            "Defense form"});
+            this.partyForm1ComboBox.Items.AddRange(new object[] { "Defense form" });
             this.partyForm1ComboBox.Location = new System.Drawing.Point(228, 151);
             this.partyForm1ComboBox.Name = "partyForm1ComboBox";
             this.partyForm1ComboBox.Size = new System.Drawing.Size(103, 21);
@@ -9037,11 +8598,7 @@
             // partyIV1UpDown
             // 
             this.partyIV1UpDown.Location = new System.Drawing.Point(48, 92);
-            this.partyIV1UpDown.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
-            0});
+            this.partyIV1UpDown.Maximum = new decimal(new int[] { 255, 0, 0, 0 });
             this.partyIV1UpDown.Name = "partyIV1UpDown";
             this.partyIV1UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyIV1UpDown.TabIndex = 5;
@@ -9049,28 +8606,16 @@
             // partyLevel1UpDown
             // 
             this.partyLevel1UpDown.Location = new System.Drawing.Point(48, 63);
-            this.partyLevel1UpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.partyLevel1UpDown.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             this.partyLevel1UpDown.Name = "partyLevel1UpDown";
             this.partyLevel1UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyLevel1UpDown.TabIndex = 4;
-            this.partyLevel1UpDown.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.partyLevel1UpDown.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // partyBall1UpDown
             // 
             this.partyBall1UpDown.Location = new System.Drawing.Point(48, 121);
-            this.partyBall1UpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.partyBall1UpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.partyBall1UpDown.Name = "partyBall1UpDown";
             this.partyBall1UpDown.Size = new System.Drawing.Size(49, 20);
             this.partyBall1UpDown.TabIndex = 3;
@@ -9140,11 +8685,7 @@
             // 
             this.encounterSSEQAltUpDown.Enabled = false;
             this.encounterSSEQAltUpDown.Location = new System.Drawing.Point(290, 85);
-            this.encounterSSEQAltUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.encounterSSEQAltUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.encounterSSEQAltUpDown.Name = "encounterSSEQAltUpDown";
             this.encounterSSEQAltUpDown.Size = new System.Drawing.Size(81, 20);
             this.encounterSSEQAltUpDown.TabIndex = 35;
@@ -9161,11 +8702,7 @@
             // encounterSSEQMainUpDown
             // 
             this.encounterSSEQMainUpDown.Location = new System.Drawing.Point(146, 85);
-            this.encounterSSEQMainUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.encounterSSEQMainUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.encounterSSEQMainUpDown.Name = "encounterSSEQMainUpDown";
             this.encounterSSEQMainUpDown.Size = new System.Drawing.Size(81, 20);
             this.encounterSSEQMainUpDown.TabIndex = 33;
@@ -9541,11 +9078,7 @@
             // partyCountUpDown
             // 
             this.partyCountUpDown.Location = new System.Drawing.Point(346, 99);
-            this.partyCountUpDown.Maximum = new decimal(new int[] {
-            6,
-            0,
-            0,
-            0});
+            this.partyCountUpDown.Maximum = new decimal(new int[] { 6, 0, 0, 0 });
             this.partyCountUpDown.Name = "partyCountUpDown";
             this.partyCountUpDown.Size = new System.Drawing.Size(41, 20);
             this.partyCountUpDown.TabIndex = 33;
@@ -9701,11 +9234,7 @@
             // pbEffectsBattleSSEQUpDown
             // 
             this.pbEffectsBattleSSEQUpDown.Location = new System.Drawing.Point(86, 382);
-            this.pbEffectsBattleSSEQUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.pbEffectsBattleSSEQUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.pbEffectsBattleSSEQUpDown.Name = "pbEffectsBattleSSEQUpDown";
             this.pbEffectsBattleSSEQUpDown.Size = new System.Drawing.Size(54, 20);
             this.pbEffectsBattleSSEQUpDown.TabIndex = 29;
@@ -9735,11 +9264,7 @@
             // pbEffectsVSAnimationUpDown
             // 
             this.pbEffectsVSAnimationUpDown.Location = new System.Drawing.Point(14, 382);
-            this.pbEffectsVSAnimationUpDown.Maximum = new decimal(new int[] {
-            65535,
-            0,
-            0,
-            0});
+            this.pbEffectsVSAnimationUpDown.Maximum = new decimal(new int[] { 65535, 0, 0, 0 });
             this.pbEffectsVSAnimationUpDown.Name = "pbEffectsVSAnimationUpDown";
             this.pbEffectsVSAnimationUpDown.Size = new System.Drawing.Size(58, 20);
             this.pbEffectsVSAnimationUpDown.TabIndex = 31;
@@ -10045,11 +9570,7 @@
             // musicIDconditionalMusicUpDown
             // 
             this.musicIDconditionalMusicUpDown.Location = new System.Drawing.Point(265, 99);
-            this.musicIDconditionalMusicUpDown.Maximum = new decimal(new int[] {
-            32767,
-            0,
-            0,
-            0});
+            this.musicIDconditionalMusicUpDown.Maximum = new decimal(new int[] { 32767, 0, 0, 0 });
             this.musicIDconditionalMusicUpDown.Name = "musicIDconditionalMusicUpDown";
             this.musicIDconditionalMusicUpDown.Size = new System.Drawing.Size(67, 20);
             this.musicIDconditionalMusicUpDown.TabIndex = 6;
@@ -10067,11 +9588,7 @@
             // flagConditionalMusicUpDown
             // 
             this.flagConditionalMusicUpDown.Location = new System.Drawing.Point(182, 99);
-            this.flagConditionalMusicUpDown.Maximum = new decimal(new int[] {
-            32767,
-            0,
-            0,
-            0});
+            this.flagConditionalMusicUpDown.Maximum = new decimal(new int[] { 32767, 0, 0, 0 });
             this.flagConditionalMusicUpDown.Name = "flagConditionalMusicUpDown";
             this.flagConditionalMusicUpDown.Size = new System.Drawing.Size(67, 20);
             this.flagConditionalMusicUpDown.TabIndex = 4;
@@ -10175,12 +9692,7 @@
             this.menuStrip1.BackColor = System.Drawing.SystemColors.Window;
             this.menuStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.aboutToolStripMenuItem,
-            this.menuViewToolStripMenuItem,
-            this.otherEditorsToolStripMenuItem,
-            this.aboutToolStripMenuItem1});
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { this.fileToolStripMenuItem, this.aboutToolStripMenuItem, this.menuViewToolStripMenuItem, this.otherEditorsToolStripMenuItem, this.aboutToolStripMenuItem1 });
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
@@ -10190,10 +9702,7 @@
             // 
             // fileToolStripMenuItem
             // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.openROMToolStripMenuItem,
-            this.openFolderToolStripMenuItem,
-            this.saveROMToolStripMenuItem});
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.openROMToolStripMenuItem, this.openFolderToolStripMenuItem, this.saveROMToolStripMenuItem });
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
@@ -10228,14 +9737,7 @@
             // 
             // aboutToolStripMenuItem
             // 
-            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.romToolboxToolStripMenuItem,
-            this.headerSearchToolStripMenuItem,
-            this.scriptCommandsDatabaseToolStripMenuItem,
-            this.NarcUtilityToolStripMenuItem,
-            this.listBasedBatchRenameToolStripMenuItem,
-            this.listBuilderToolStripMenuItem,
-            this.nSBMDUtilityToolStripMenuItem});
+            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.romToolboxToolStripMenuItem, this.headerSearchToolStripMenuItem, this.scriptCommandsDatabaseToolStripMenuItem, this.NarcUtilityToolStripMenuItem, this.listBasedBatchRenameToolStripMenuItem, this.listBuilderToolStripMenuItem, this.nSBMDUtilityToolStripMenuItem });
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.aboutToolStripMenuItem.Text = "Tools";
@@ -10258,10 +9760,7 @@
             // 
             // scriptCommandsDatabaseToolStripMenuItem
             // 
-            this.scriptCommandsDatabaseToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.diamondAndPearlToolStripMenuItem,
-            this.platinumToolStripMenuItem,
-            this.heartGoldAndSoulSilverToolStripMenuItem});
+            this.scriptCommandsDatabaseToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.diamondAndPearlToolStripMenuItem, this.platinumToolStripMenuItem, this.heartGoldAndSoulSilverToolStripMenuItem });
             this.scriptCommandsDatabaseToolStripMenuItem.Name = "scriptCommandsDatabaseToolStripMenuItem";
             this.scriptCommandsDatabaseToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
             this.scriptCommandsDatabaseToolStripMenuItem.Text = "Script Commands Database";
@@ -10295,9 +9794,7 @@
             // 
             // NarcUtilityToolStripMenuItem
             // 
-            this.NarcUtilityToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.buildFomFolderToolStripMenuItem,
-            this.unpackToFolderToolStripMenuItem});
+            this.NarcUtilityToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.buildFomFolderToolStripMenuItem, this.unpackToFolderToolStripMenuItem });
             this.NarcUtilityToolStripMenuItem.Name = "NarcUtilityToolStripMenuItem";
             this.NarcUtilityToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
             this.NarcUtilityToolStripMenuItem.Text = "NARC Utility";
@@ -10322,9 +9819,7 @@
             // 
             // listBasedBatchRenameToolStripMenuItem
             // 
-            this.listBasedBatchRenameToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.listBasedToolStripMenuItem,
-            this.contentBasedToolStripMenuItem});
+            this.listBasedBatchRenameToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.listBasedToolStripMenuItem, this.contentBasedToolStripMenuItem });
             this.listBasedBatchRenameToolStripMenuItem.Name = "listBasedBatchRenameToolStripMenuItem";
             this.listBasedBatchRenameToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
             this.listBasedBatchRenameToolStripMenuItem.Text = "Batch Rename Utility";
@@ -10349,9 +9844,7 @@
             // 
             // listBuilderToolStripMenuItem
             // 
-            this.listBuilderToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fromCEnumToolStripMenuItem,
-            this.fromFolderContentsToolStripMenuItem});
+            this.listBuilderToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.fromCEnumToolStripMenuItem, this.fromFolderContentsToolStripMenuItem });
             this.listBuilderToolStripMenuItem.Name = "listBuilderToolStripMenuItem";
             this.listBuilderToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
             this.listBuilderToolStripMenuItem.Text = "Folder-Based List Builder";
@@ -10376,10 +9869,7 @@
             // 
             // nSBMDUtilityToolStripMenuItem
             // 
-            this.nSBMDUtilityToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.texturizeNSBMDToolStripMenuItem,
-            this.untexturizeToolStripMenuItem,
-            this.extractNSBTXFromNSBMDToolStripMenuItem});
+            this.nSBMDUtilityToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.texturizeNSBMDToolStripMenuItem, this.untexturizeToolStripMenuItem, this.extractNSBTXFromNSBMDToolStripMenuItem });
             this.nSBMDUtilityToolStripMenuItem.Name = "nSBMDUtilityToolStripMenuItem";
             this.nSBMDUtilityToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
             this.nSBMDUtilityToolStripMenuItem.Text = "NSBMD Utility";
@@ -10413,11 +9903,7 @@
             // 
             // menuViewToolStripMenuItem
             // 
-            this.menuViewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.essentialToolStripMenuItem,
-            this.simpleToolStripMenuItem,
-            this.advancedStripMenuItem,
-            this.fullViewToolStripMenuItem});
+            this.menuViewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.essentialToolStripMenuItem, this.simpleToolStripMenuItem, this.advancedStripMenuItem, this.fullViewToolStripMenuItem });
             this.menuViewToolStripMenuItem.Name = "menuViewToolStripMenuItem";
             this.menuViewToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
             this.menuViewToolStripMenuItem.Text = "Menu View";
@@ -10454,11 +9940,7 @@
             // 
             // otherEditorsToolStripMenuItem
             // 
-            this.otherEditorsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.personalDataEditorToolStripMenuItem,
-            this.overlayEditorToolStripMenuItem,
-            this.spawnEditorToolStripMenuItem,
-            this.moveDataEditorToolStripMenuItem});
+            this.otherEditorsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.personalDataEditorToolStripMenuItem, this.overlayEditorToolStripMenuItem, this.spawnEditorToolStripMenuItem, this.moveDataEditorToolStripMenuItem });
             this.otherEditorsToolStripMenuItem.Enabled = false;
             this.otherEditorsToolStripMenuItem.Name = "otherEditorsToolStripMenuItem";
             this.otherEditorsToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
@@ -10467,23 +9949,30 @@
             // personalDataEditorToolStripMenuItem
             // 
             this.personalDataEditorToolStripMenuItem.Name = "personalDataEditorToolStripMenuItem";
-            this.personalDataEditorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.personalDataEditorToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.personalDataEditorToolStripMenuItem.Text = "Pokémon Editor";
             this.personalDataEditorToolStripMenuItem.Click += new System.EventHandler(this.pokemonDataEditorToolStripMenuItem_Click);
             // 
             // overlayEditorToolStripMenuItem
             // 
             this.overlayEditorToolStripMenuItem.Name = "overlayEditorToolStripMenuItem";
-            this.overlayEditorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.overlayEditorToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.overlayEditorToolStripMenuItem.Text = "Overlay Editor";
             this.overlayEditorToolStripMenuItem.Click += new System.EventHandler(this.overlayEditorToolStripMenuItem_Click);
             // 
             // spawnEditorToolStripMenuItem
             // 
             this.spawnEditorToolStripMenuItem.Name = "spawnEditorToolStripMenuItem";
-            this.spawnEditorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.spawnEditorToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.spawnEditorToolStripMenuItem.Text = "Spawn Point Editor";
             this.spawnEditorToolStripMenuItem.Click += new System.EventHandler(this.spawnEditorToolStripButton_Click);
+            // 
+            // moveDataEditorToolStripMenuItem
+            // 
+            this.moveDataEditorToolStripMenuItem.Name = "moveDataEditorToolStripMenuItem";
+            this.moveDataEditorToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.moveDataEditorToolStripMenuItem.Text = "Move Data Editor";
+            this.moveDataEditorToolStripMenuItem.Click += new System.EventHandler(this.moveDataEditorToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem1
             // 
@@ -10496,9 +9985,7 @@
             // 
             this.statusStrip1.BackColor = System.Drawing.SystemColors.Control;
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.statusLabel,
-            this.toolStripProgressBar});
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { this.statusLabel, this.toolStripProgressBar });
             this.statusStrip1.Location = new System.Drawing.Point(0, 777);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(1214, 22);
@@ -10523,34 +10010,7 @@
             this.mainToolStrip.BackColor = System.Drawing.SystemColors.Menu;
             this.mainToolStrip.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.mainToolStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.mainToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.loadRomButton,
-            this.readDataFromFolderButton,
-            this.saveRomButton,
-            this.separator_AfterOpenSave,
-            this.unpackAllButton,
-            this.updateMapNarcsButton,
-            this.separator_afterFolderUnpackers,
-            this.buildNarcFromFolderToolStripButton,
-            this.unpackNARCtoFolderToolStripButton,
-            this.separator_afterNarcUtils,
-            this.listBasedBatchRenameToolStripButton,
-            this.contentBasedBatchRenameToolStripButton,
-            this.separator_afterRenameUtils,
-            this.enumBasedListBuilderToolStripButton,
-            this.folderBasedListBuilderToolStriButton,
-            this.separator_afterListUtils,
-            this.nsbmdAddTexButton,
-            this.nsbmdRemoveTexButton,
-            this.nsbmdExportTexButton,
-            this.separator_afterNsbmdUtils,
-            this.buildingEditorButton,
-            this.wildEditorButton,
-            this.scriptCommandsButton,
-            this.romToolboxToolStripButton,
-            this.headerSearchToolStripButton,
-            this.spawnEditorToolStripButton,
-            this.separator_afterMiscButtons});
+            this.mainToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { this.loadRomButton, this.readDataFromFolderButton, this.saveRomButton, this.separator_AfterOpenSave, this.unpackAllButton, this.updateMapNarcsButton, this.separator_afterFolderUnpackers, this.buildNarcFromFolderToolStripButton, this.unpackNARCtoFolderToolStripButton, this.separator_afterNarcUtils, this.listBasedBatchRenameToolStripButton, this.contentBasedBatchRenameToolStripButton, this.separator_afterRenameUtils, this.enumBasedListBuilderToolStripButton, this.folderBasedListBuilderToolStriButton, this.separator_afterListUtils, this.nsbmdAddTexButton, this.nsbmdRemoveTexButton, this.nsbmdExportTexButton, this.separator_afterNsbmdUtils, this.buildingEditorButton, this.wildEditorButton, this.scriptCommandsButton, this.romToolboxToolStripButton, this.headerSearchToolStripButton, this.spawnEditorToolStripButton, this.separator_afterMiscButtons });
             this.mainToolStrip.Location = new System.Drawing.Point(0, 24);
             this.mainToolStrip.Name = "mainToolStrip";
             this.mainToolStrip.Size = new System.Drawing.Size(1214, 44);
@@ -10858,13 +10318,6 @@
             this.versionLabel.TabIndex = 9;
             this.versionLabel.Text = "ROM:";
             this.versionLabel.Visible = false;
-            // 
-            // moveDataEditorToolStripMenuItem
-            // 
-            this.moveDataEditorToolStripMenuItem.Name = "moveDataEditorToolStripMenuItem";
-            this.moveDataEditorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.moveDataEditorToolStripMenuItem.Text = "Move Data Editor";
-            this.moveDataEditorToolStripMenuItem.Click += new System.EventHandler(this.moveDataEditorToolStripMenuItem_Click);
             // 
             // MainProgram
             // 
@@ -11192,7 +10645,6 @@
             this.mainToolStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion

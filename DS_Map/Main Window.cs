@@ -702,6 +702,14 @@ namespace DSPRE {
         }
 
         private void saveRom_Click(object sender, EventArgs e) {
+            // Ask if user wants to move all extracted scripts to the main folder
+            var result = MessageBox.Show("Do you want to move all extracted scripts to the main folder?", "Move Scripts", MessageBoxButtons.YesNo);
+
+            if (result == DialogResult.Yes) {
+                ProgressForm progressForm = new ProgressForm();
+                progressForm.ShowDialog();
+            }
+                
             SaveFileDialog saveRom = new SaveFileDialog {
                 Filter = DSUtils.NDSRomFilter
             };
