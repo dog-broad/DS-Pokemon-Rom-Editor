@@ -38,7 +38,7 @@ namespace DSPRE {
             EditorPanels.Initialize(this);
             Helpers.Initialize(this);
             SetMenuLayout(Properties.Settings.Default.menuLayout); //Read user settings for menu layout
-            Text = "DS Pokémon Rom Editor Reloaded " + GetDSPREVersion() + " (Nømura, AdAstra/LD3005, Mixone)";
+            Text = "DS Pokémon Rom Editor Reloaded " + GetDSPREVersion() + " (Nømura, AdAstra/LD3005, Mixone) - Re:Kanto Version by Dog-broad";
         }
 
         #region Program Window
@@ -702,6 +702,14 @@ namespace DSPRE {
         }
 
         private void saveRom_Click(object sender, EventArgs e) {
+            // Ask if user wants to move all extracted scripts to the main folder
+            var result = MessageBox.Show("Do you want to move all extracted scripts to the main folder?", "Move Scripts", MessageBoxButtons.YesNo);
+
+            if (result == DialogResult.Yes) {
+                ProgressForm progressForm = new ProgressForm();
+                progressForm.ShowDialog();
+            }
+                
             SaveFileDialog saveRom = new SaveFileDialog {
                 Filter = DSUtils.NDSRomFilter
             };
