@@ -287,7 +287,7 @@ namespace DSPRE.Resources {
             [0x007B] = "GiveItem",
             [0x007C] = "TakeItem",
             [0x007D] = "CheckItemSpace",
-            [0x007E] = "CheckPlayerHasItem",
+            [0x007E] = "CheckItem",
             [0x007F] = "CheckItemIsMachine",
             [0x0080] = "GetItemPocket",
             [0x0081] = "DummyGivePCItem",
@@ -544,6 +544,8 @@ namespace DSPRE.Resources {
             [0x01CA] = "GetPartyPokemonMove",
             [0x01CB] = "TextPartyPokemonMove",
 
+            [0x01CD] = "CreateJournalData",
+
             [0x01CF] = "Strength",
             [0x01D0] = "Flash",
             [0x01D1] = "Defog",
@@ -559,10 +561,14 @@ namespace DSPRE.Resources {
             [0x01F5] = "CheckFossil",
             [0x01F6] = "CountPokemonUnderLevel",
             [0x01F7] = "SurvivePoison",
+            [0x01F8] = "FinishOverworldScreen",
+            [0x01F9] = "DummyGetVar",
+            [0x01FA] = "MessageAllFromArchive",
+            [0x01FB] = "MessageFromArchive",
 
             [0x0200] = "GetPreviousHeaderID",
             [0x0201] = "GetCurrentHeaderID",
-
+            [0x0202] = "SetSafariFlag",
             [0x0203] = "BattleRoomWarp",
             [0x0204] = "ExitBattleRoom",
             [0x0205] = "GeonetScreen",
@@ -1398,7 +1404,7 @@ namespace DSPRE.Resources {
             [0x029E] = new byte[] { 2, 2 },
             [0x029F] = new byte[] { 2 },
             [0x02A0] = new byte[] { 2, 2, 2 },
-            [0x02A1] = new byte[1] { 0 },
+            [0x02A1] = new byte[] { 2, 2, 2 },
             [0x02A2] = new byte[] { 2 },
             [0x02A3] = new byte[] { 2 },
             [0x02A4] = new byte[] { 2 },
@@ -1804,7 +1810,7 @@ namespace DSPRE.Resources {
             [0x008D] = "CheckMoveInParty",
 
             [0x008F] = "ChooseRivalName",
-
+            [0x0090] = "GetCounterpartSprite",
             [0x0091] = "UpgradePokegear",
             [0x0092] = "RecordPokegearNumber", //to be confirmed
 
@@ -1839,6 +1845,7 @@ namespace DSPRE.Resources {
             [0x00C0] = "TextCounterpart",
             [0x00C1] = "TextPartyPokemon",
             [0x00C2] = "TextItem",
+            [0x00C2] = "TextPocket",
             [0x00C4] = "TextAttackItem",
             [0x00C5] = "TextMove",
             [0x00C6] = "TextNumber",
@@ -1993,6 +2000,8 @@ namespace DSPRE.Resources {
             [0x01B1] = "CheckFossil",
             [0x01B2] = "CountPokemonUnderLevel",
             [0x01B3] = "SurvivePoison",
+            [0x01B4] = "FinishOverworldScreen",
+            [0x01B5] = "DummyGetVar",
 
             [0x01BD] = "GetPreviousHeaderID",
             [0x01BE] = "GetCurrentHeaderID",
@@ -2124,6 +2133,8 @@ namespace DSPRE.Resources {
             [0x02EE] = "MultiTouchLocalText",
             [0x02EF] = "CreateMultiTouchBox",
             [0x02F0] = "CloseMultiTouch",
+
+            [0x0310] = "OverlayManager",
 
             [0x031B] = "ShowMomMoney",
             [0x031C] = "HideMomMoney",
@@ -2957,11 +2968,11 @@ namespace DSPRE.Resources {
             [0x0309] = new byte[] { 2, 2 },
             [0x030A] = new byte[1] { 0 },
             [0x030B] = new byte[] { 2, 2 },
-            [0x030C] = new byte[] { 2 },
+            [0x030C] = new byte[] { 1, 1 },
             [0x030D] = new byte[] { 2 },
             [0x030E] = new byte[1] { 0 },
             [0x030F] = new byte[] { 1 },
-            [0x0310] = new byte[] { 2 },
+            [0x0310] = new byte[] { 1, 1 },
             [0x0311] = new byte[] { 2, 1 },
             [0x0312] = new byte[] { 1 },
             [0x0313] = new byte[] { 2, 2, 2 },
